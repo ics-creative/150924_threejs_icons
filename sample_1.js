@@ -27,7 +27,7 @@ var demo;
             var container = new createjs.Container();
             var SIZE = 256;
             for (var i = 0, len = this.matrixLength * this.matrixLength; i < len; i++) {
-                var text2 = new createjs.Text("い", "200px serif", "#f00");
+                var text2 = new createjs.Text("あ", "200px serif", "#f00");
                 text2.textBaseline = "middle";
                 text2.textAlign = "center";
                 text2.x = SIZE * (i % this.matrixLength) + SIZE / 2;
